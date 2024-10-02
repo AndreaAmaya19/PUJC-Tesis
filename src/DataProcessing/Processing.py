@@ -85,7 +85,6 @@ clima_df['merge_key'] = clima_df['FechaObservacion'].dt.strftime('%Y-%m-%d') + '
 # Merge usando la columna llave
 final_df = pd.merge(all_dbs_combined, clima_df, how='left', on='merge_key')
 
-
 # ========================================================= #
 # Guardar DF Final
 # ========================================================= #
