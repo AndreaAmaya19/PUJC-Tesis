@@ -79,7 +79,7 @@ all_dbs_combined['coords'] = all_dbs_combined['Latitud_X'].astype(str) + ',' + a
 clima_df['coords'] = clima_df['Latitud'].astype(str) + ',' + clima_df['Longitud'].astype(str)
 
 # Crear las columnas llave en ambas bases de datos
-all_dbs_combined['merge_key'] = all_dbs_combined['hora_fecha_inicial'].dt.strftime('%Y-%m-%d') + '_' + all_dbs_combined_v5['coords']
+all_dbs_combined['merge_key'] = all_dbs_combined['hora_fecha_inicial'].dt.strftime('%Y-%m-%d') + '_' + all_dbs_combined['coords']
 clima_df['merge_key'] = clima_df['FechaObservacion'].dt.strftime('%Y-%m-%d') + '_' + clima_df['coords']
 
 # Merge usando la columna llave
