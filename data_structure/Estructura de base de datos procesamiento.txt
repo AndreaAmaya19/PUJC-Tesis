@@ -1,0 +1,26 @@
+## Estructura de base de datos a procesar
+
+cod_incidente: str
+tipo_incidente:	int
+Nombre.del.incidente: str
+prioridad.inicial: str	
+prioridad.final: str	
+cod_recurso: int
+tipo: str	
+hora_fecha_inicial: timestap
+hora_fecha_extincid: timestap	
+hora_fecha_cierre: timestap
+cod_cierre_final: str	
+Nombre.de.cierre.final: str	
+Estado: str
+Inc_con_Desp: str
+Localidad: str
+Zona.del.incidente: str	
+X_COORD: float
+Y_COORD: float	
+Circunstancia.modificadora: str
+Nombre.Circunstancia.modificadora: str	
+Longitud_Y: int
+Latitud_X: int
+Nombre_UPZ: str
+Codigo_UPZ: int
