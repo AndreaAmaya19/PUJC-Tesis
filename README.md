@@ -18,29 +18,32 @@ src/
 ### **1. Requisitos Previos**
 
 1. Asegúrate de tener instalado Python 3.8 o superior.
-2. Comprueba que la estructura de la base de datos es  
+2. Comprueba que la estructura de la base de datos en cada parte del procesamiento. 
 3. Instala las dependencias necesarias ejecutando:
+
 
 ```bash
 pip install -r requirements.txt
 ```
+
 ### **2. Flujo General**
 
 El flujo general del código sigue estos pasos:
 
 1. **Procesamiento de Datos:**
+   - Valida que los datos tengan la estructura descrita en `data_structure/Estructura de base de datos procesamiento.txt`
    - Navega a `src/DataProcessing/` y ejecuta el script para limpieza e integración de datos:
      - `Processing.py`
 
    ```bash
    python src/DataProcessing/Processing.py
    ```
+   
 
 2. **Análisis Exploratorio de Datos (EDA):**
-   - Usa los scripts en `src/EDA/` para analizar y visualizar los datos procesados.
-   - Archivos principales:
-     - `eda_summary.py`
-     - `eda_visualizations.py`
+   - Usa el script en `src/EDA/` para analizar y visualizar los datos procesados.
+   - Archivo principal:
+     - `Eda.py`\
 
    ```bash
    python src/EDA/eda_summary.py
