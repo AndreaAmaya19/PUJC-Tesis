@@ -33,22 +33,61 @@ El flujo general del código sigue estos pasos:
 1. **Procesamiento de Datos:**
    - Valida que los datos tengan la estructura descrita en `data_structure/Estructura de base de datos procesamiento.txt`
    - Navega a `src/DataProcessing/` y ejecuta el script para limpieza e integración de datos:
-     - `Processing.py`
+     - `processing.py`
 
    ```bash
-   python src/DataProcessing/Processing.py
-   ```
-   
+   python src/DataProcessing/processing.py
+   ``` 
 
 2. **Análisis Exploratorio de Datos (EDA):**
    - Usa el script en `src/EDA/` para analizar y visualizar los datos procesados.
    - Archivo principal:
-     - `Eda.py`\
+     - `eda.py` 
 
    ```bash
-   python src/EDA/eda_summary.py
+   python src/EDA/eda.py
    ```
-   
-## Modelos Tradicionales
 
-## Modelos de Machine Learning
+3. **Modelado Estadístico:**
+   - Implementa y evalúa los modelos tradicionales en `src/ClassicModels/`.
+   - Archivo:
+     - `statistic_models.py`
+
+   ```bash
+   python src/ClassicModels/statistic_models.py
+   ```
+
+4. **Modelos de Machine Learning:**
+   - Entrena y evalúa modelos avanzados en `src/ML/`.
+   - Archivo:
+     - `ml_final_model.py`
+
+   ```bash
+   python src/ML/ml_final_model.py
+   ```
+
+5. **Análisis Espacial y Mapas:**
+   - Visualiza los patrones espacio-temporales en `src/Maps/` utilizando R.
+   - Archivos principales:
+     - `Analisis espacial.R`
+     - `Mapas UPZ.R`
+     - `variable UPZ.R`
+
+6. **Implementación del Modelo Final:**
+   - Valida la estructura de la base de datos antes de ejecutar el modelo, esta se encuentra en `data_structure/estructura de datos para implementación del modelo.txt`
+   - Usa el script en `src/Model_Implementation/` para implementar el modelo final y realizar predicciones. El modelo ya esta entrenado, solo sigue los pasos que están en el notebook para llamarlo y ejecutarlo.
+   - Archivos principales:
+     - Modelo: `src/Model_Implementation/modelo_xgb.pkl`
+     - Notebook: `src/Model_Implementation/Implementación_Modelo_CRUE.ipynb`
+
+   ```bash
+   python src/Model_Implementation/Implementación_Modelo_CRUE.ipynb
+   ```
+
+---
+
+## **Notas Adicionales**
+
+- Asegúrate de que los datos estén en el formato adecuado antes de ejecutar los scripts.
+- El archivo `requirements.txt` incluye todas las dependencias necesarias para ejecutar el código, pero puede ser necesario actualizar la versión de las librerías.
+- Si necesitas ayuda adicional, revisa los comentarios dentro de cada script para más detalles.
