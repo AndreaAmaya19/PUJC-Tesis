@@ -7,9 +7,9 @@ prioridad.inicial: str
 prioridad.final: str	
 cod_recurso: int
 tipo: str	
-hora_fecha_inicial: timestap
-hora_fecha_extincid: timestap	
-hora_fecha_cierre: timestap
+hora_fecha_inicial: timestamp
+hora_fecha_extincid: timestamp	
+hora_fecha_cierre: timestamp
 cod_cierre_final: str	
 Nombre.de.cierre.final: str	
 Estado: str

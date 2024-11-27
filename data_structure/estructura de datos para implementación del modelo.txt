@@ -1,0 +1,40 @@
+## Estructura de base de datos para implementar el modelo
+
+cod_incidente: str
+Anio: int
+Mes: int
+Dia_mes: int
+Infantes_0_4: int
+Niños_5_14: int
+Adolecentes_15_19: int
+Adultos_20_59: int
+Adultos_mayores_60: int
+Total_Hombres: int
+Total_Mujeres: int
+Total_pob_UPL: int
+Cantidad Eventos: int
+Longitud_Y: float
+Latitud_X: float
+Cod_UPL: int
+dia_del_anio: int
+dia_semana: int
+Rango_Hora: str ('9am-9pm', '9pm-9am')
+Broma: int ('0', '1')
+Falsa_alarma: int ('0', '1')
+Atendido: int ('0', '1')
+Inc_Herido: int ('0', '1')
+Inc_TrstM: int ('0', '1')
+Inc_Enfermo: int ('0', '1')
+Inc_Convulsion: int ('0', '1')
+Inc_Dif_Resp: int ('0', '1')
+Inc_Paro: int ('0', '1')
+Aforo_total: int ('0', '1')
+ValorPrecip: float 
+Densidad_poblacional: float
+prioridad.inicial_ALTA: int ('0', '1')
+prioridad.inicial_BAJA: int ('0', '1')
+prioridad.inicial_CRITICA: int ('0', '1')
+prioridad.inicial_MEDIA: int ('0', '1')
+Fecha: timestamp
+Festivo: int ('0', '1')
+
