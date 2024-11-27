@@ -4,6 +4,9 @@ Este repositorio contiene el código fuente desarrollado para la tesis "Modelo e
 
 ## **Estructura del Repositorio**
 ```plaintext
+data_structure/
+├── estructura de base de datos procesamiento.txt/          # Descripción de las bases de datos para procesamiento inicial.
+├── estructura de datos para implementación del modelo.txt/ # Detalles de la estructura de datos necesaria para implementar el modelo.
 src/
 ├── ClassicModels/        # Implementación de modelos estadísticos tradicionales (ARIMA, SARIMA, etc.)
 ├── DataProcessing/       # Scripts para limpieza, transformación e integración de datos.
